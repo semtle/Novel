@@ -136,13 +136,10 @@ public class ScenarioScreen extends Screen {
 					//初日はキャラに対応したオープニングシナリオを見せることにする
 					if(progress.getHero() == KyaraNum.Roloa){
 						//ロロアが主人公の場合
-
-							scriptplayer.load("RoloaOpen.txt");							
-
+						scriptplayer.load("RoloaOpen.txt");							
 					} else if(progress.getHero() == KyaraNum.Maki){
 
-							scriptplayer.load("MakiOpen.txt");							
-
+						scriptplayer.load("MakiOpen.txt");							
 						
 					} else {
 						//それ以外の場合（？）

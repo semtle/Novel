@@ -56,7 +56,6 @@ public class SelectScreen extends Screen {
 		kumo.paint(g);
 		roloa.paint(g);
 		blosh.paint(g);
-
 		
 	}
 
@@ -72,11 +71,11 @@ public class SelectScreen extends Screen {
 			if(onMaki){
 				next = new ScenarioScreen(new ScenarioProgress(KyaraNum.Maki));
 			} else if(onKumo){
-				
+				//だめまだ
 			} else if(onRoloa){
 				next = new ScenarioScreen(new ScenarioProgress(KyaraNum.Roloa));
 			} else if(onBlosh){
-				
+				//まだない
 			}
 
 

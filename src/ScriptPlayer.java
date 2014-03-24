@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 
 public class ScriptPlayer{
-	
+
 	//シナリオ画面に表示されるもの
 	private TextWindow textwindow;
 	private KyaraDisplay kyara1;
@@ -22,15 +22,15 @@ public class ScriptPlayer{
 
 	//周回中既読スクリプトのログ
 	private int[] scriptlog;
-	
+
 	public static final int RANDOM_SCENARIO_NUM = 70;
-	
-	
-	
+
+
+
 	public ScriptPlayer(){
 
 		this.scriptlog = new int[10];
-		
+
 		//スクリプト中に表示するものの準備
 		this.textwindow = new TextWindow();
 		this.kyara1 = new KyaraDisplay();
@@ -39,28 +39,26 @@ public class ScriptPlayer{
 		this.background = new BackGroundDisplay();
 		this.textIterator = new StringCharacterIterator("");
 
-		
+
 	}
-	
+
 	/**
 	 * 場所と進行状況をもらってランダムスクリプトを読み込む
 	 */
 	public void loadRandom(ScenarioProgress progress, int place){
 		//とりあえずフラグ立て
 		this.isPlaying = true;
-		
+
 		//現在の状況をデバプリ
 		progress.printState();
-		
+
 		for(int i=0 ; i < 100 ; i++){
-			//ランダムにスクリプトを取る
-			//sprintfほしー
+			//ランダムにスクリプト番号を取る
 			int num = (int)(Math.random() * RANDOM_SCENARIO_NUM);
-			//TODO シナリオかぶりがないようにする
+
+			//同一周回でのシナリオかぶりチェック
 			if(kaburiCheck(num)){
-					
-	
-				
+
 				String numstr = String.format("%02d", num);
 				System.out.println("ランダムシナリオ"+numstr);
 				try {
@@ -69,8 +67,7 @@ public class ScriptPlayer{
 					System.out.println("そもそもファイルがない。");
 					continue;
 				}
-				
-				//何回読んでも再生可能なスクリプトが無いなら、場所に対応した無人スクリプトをロードする。
+
 				if(scenarioCheck(progress, place)){
 					scriptlog[progress.getDay()] = num;
 					return;
@@ -78,13 +75,14 @@ public class ScriptPlayer{
 				this.scriptScanner.close();
 			}
 		}
+		//100回読んでも再生可能なスクリプトが無いなら、場所に対応した無人スクリプトをロードする。
 		try {
 			this.scriptScanner = new Scanner(new File("story/" + "00.txt" ),"UTF-8");
 		} catch (FileNotFoundException e) {
 			System.out.println("random00が見つからないとかいう究極致命エラー");
 			System.exit(9999);
 		}
-				
+
 	}
 	public boolean kaburiCheck(int scenarioNum){
 		for(int i=0 ; i < scriptlog.length ; i++){
@@ -94,7 +92,11 @@ public class ScriptPlayer{
 		}
 		return true;
 	}
-	
+
+	/**
+	 * シナリオファイルの最初から@startが来るまでを読んで、
+	 * そのシナリオが再生に値するかどうかを返す。
+	 */
 	public boolean scenarioCheck(ScenarioProgress progress, int place){
 		for(;;){
 			if(this.scriptScanner.hasNext()){
@@ -185,7 +187,7 @@ public class ScriptPlayer{
 							}
 						}
 					} else if(str.equals("")){
-						
+
 					} else {
 						System.out.println("未定義の制御文" + str);
 					}
@@ -200,39 +202,38 @@ public class ScriptPlayer{
 				System.exit(0);
 			}		
 		}
-		
+
 	}
 	/**
 	 * 指定されたスクリプトを読み込む
 	 */
 	public void load(String name){
 		this.isPlaying = true;
-		//ランダムにスクリプトを取る
 		try {
 			this.scriptScanner = new Scanner(new File("story/" + name ),"UTF-8");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		
+
 	}
-	
+
 	public void onTick(Mouse mouse , Key key,ScenarioProgress progress , FadeLayer fadelayer){
 		kyara1.onTick();
 		kyara2.onTick();
-		
+
 		if(key.isPress(KeyEvent.VK_F1)){
 			//強制終了
 			fadelayer.start();
 			progress.addDay(1);
 		}
-		
+
 		//スクリプトプレイ中なら
 		if(this.isPause){ //入力待ち中なら
 			if(mouse.onRelease()){
 				this.isPause = false;
 				this.textwindow.clear();
 			}
-			
+
 		}else if(kyara1.isChangeing()){
 			//キャラ１の変化中
 		} else if(kyara2.isChangeing()){
@@ -245,7 +246,7 @@ public class ScriptPlayer{
 			this.textwindow.add(textIterator.current());
 			textIterator.next();
 		} else {
-		//スクリプトがまだあれば
+			//スクリプトがまだあれば
 			if(this.scriptScanner.hasNext()){
 				//スクリプトファイルを一ブロック読んで
 				String str = this.scriptScanner.next();
@@ -255,25 +256,25 @@ public class ScriptPlayer{
 						this.isPause = true;
 					} else if(str.equals("kyara1")){ //キャラクター画像変更
 						this.kyara1.setImage(
-						this.scriptScanner.next()
-						);
+								this.scriptScanner.next()
+								);
 					} else if(str.equals("kyara2")){
 						this.kyara2.setImage(
-						this.scriptScanner.next()
-						);
+								this.scriptScanner.next()
+								);
 					} else if(str.equals("background")){
 						this.background.setImage(
-						this.scriptScanner.next()
-						);
+								this.scriptScanner.next()
+								);
 					} else if(str.equals("end")){ //スクリプト正常終了
 						this.textwindow.clear();
 						this.kyara1.setImage("void");
 						this.kyara2.setImage("void");
 						this.background.setImage("void");
-						
+
 						fadelayer.start();
 						progress.addDay(1);
-						
+
 					} else if(str.equals("loveroloa")){ //好感度変化
 						progress.addLoveRoloa(Integer.parseInt(this.scriptScanner.next()));
 					} else if(str.equals("loveblosh")){ 
@@ -285,18 +286,18 @@ public class ScriptPlayer{
 					} else if(str.equals("hidetext")){
 						this.textwindow.hide();
 					} else if(str.equals("hoge")){
-						
+
 					} else {
 						System.out.println("未定義の制御文" + str);
 					}
 
-					
+
 				} else {
 					//テキストなら
 					//セリフかどうか判断
 					int kakkoIndex = str.indexOf('「');
 					if(kakkoIndex != -1){
-						//セリフなら
+						//セリフなら名前欄にキャラ名を投入
 						this.textwindow.setNameWindow(str.substring(0, kakkoIndex));
 						str = str.substring(kakkoIndex + 1, str.length());
 					} else {
@@ -316,18 +317,18 @@ public class ScriptPlayer{
 	public void paint(Graphics g){
 		//スクリプトプレイ中
 		this.background.paint(g, 0, 0);
-		
+
 		g.setColor(Color.black);
 		//g.drawString("しなりお", 40, 100);
-		
+
 		this.kyara1.paint(g, 400, 30);
 
 		this.kyara2.paint(g, 0, 30);
-		
+
 		this.textwindow.paint(g , 0 , 350);
 
 	}
-	
+
 	public boolean isPlaying(){
 		return this.isPlaying;
 	}
@@ -335,7 +336,7 @@ public class ScriptPlayer{
 	public void setPlaying(boolean b) {
 		this.isPlaying = b;
 	}
-	
+
 	public String placeNumToName(int i){
 		switch(i){
 		case ScenarioScreen.STREET:
@@ -355,5 +356,5 @@ public class ScriptPlayer{
 		}
 		return null;
 	}
-	
+
 }
