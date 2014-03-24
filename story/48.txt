@@ -1,0 +1,35 @@
+@ifmember blosh roloa
+@ifloveblosh 5
+@ifloveroloa 5
+@ifplace bloshhome
+@start
+@background bloshhome
+@kyara1 blosh_warai
+@kyara2 roloa
+ロロアがブロッシュの家を訪ねると、ブロッシュは家の裏でおかしな歌を大声で歌っていた。
+@page
+ブロッシュ「あーえーいーうーえーおーあーおー！」
+@page
+ロロア「ブロッシュ？　何してるの……？」
+@page
+ブロッシュ「キレイな声を出す練習だよ。　ロロアも一緒にやんないかい？」
+@page
+@kyara2 roloa_tere
+ロロア「え、わたしは、その、大きな声とかあんまり出せないんだけど……」
+@page
+ロロア「でも、でもブロッシュと一緒なら……」
+@page
+ブロッシュ「そぉ？　じゃー、ご一緒に」
+@page
+ブロッシュ「あーえーいーうーえーおーあーおー！」
+@page
+ロロア「あー……えー……」
+@page
+ブロッシュ「まずは覚えよう！ ハイ、あ、え、い、う」
+@page
+ロロア「あ、え、い、う……」
+@page
+こうして二人は、ひたすら発声の練習に明け暮れた……
+@loveblosh 3
+@loveroloa 3
+@end

@@ -1,0 +1,20 @@
+@ifmember maki kumo
+@ifplace kumohome
+@iflove kumo 1
+@iflove maki 1
+@start
+@background kumohome
+@kyara1 kumo
+クモ「え？カーニバルの飾り付けのデザインを手伝えって？
+@page
+@kyara2 maki_warai
+マキ「うん、ワタシだけじゃ出来そうになくって……
+@page
+クモ「ダメ。
+@page
+@kyara2 maki_odoroki
+マキ「そんな！」
+@page
+@lovemaki 1
+@lovekumo 1
+@end

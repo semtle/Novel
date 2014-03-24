@@ -1,0 +1,22 @@
+@ifmember maki roloa
+@ifloveroloa 3
+@iflovemaki 3
+@ifplace makihome
+@start
+@background makihome
+@kyara1 maki_warai
+@kyara2 roloa_warai
+マキ「いらっしゃい、ロロアちゃん。
+@page
+ロロア「おじゃましまーす。
+@page
+マキ「ふふ、またいつものお茶だけど、今度はいれ方を変えてみたのよ。
+@page
+ロロア「えへへ、わたしも、今日はお菓子作ってきたんだよ。
+@page
+マキ「あら、クッキー？美味しそう。
+@page
+ロロア「マキさんにも、美味しかったらいいな……
+@lovemaki 2
+@loveroloa 2
+@end

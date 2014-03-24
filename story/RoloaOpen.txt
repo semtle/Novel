@@ -1,0 +1,107 @@
+@start
+@background street
+@kyara1 roloa
+ロロア「わぁ……
+@page
+わたしの目の前には、舗装されてない広い道と素朴な木造の町並み。
+そして、遠くに見える畑。
+@page
+わたしはこの発展途上の小さな農村に今日から住むことになったのだ。
+@page
+@kyara2 soncho
+村長「あなたがロロアさん、ですね？
+@page
+ロロア「あっ、はい、そうですけど……
+@page
+村長「私はこの村の村長ですわ。以後よろしくお願いします。
+@page
+ロロア「えっと、よろしくおねがいします。
+@page
+村長「早速だけど、あなたの家に案内するわ。ついてきて。
+@page
+村長「いろいろ話しながら歩くから、ちゃんと聞いててね。
+@page
+ロロア「わかりました。
+@page
+@background black
+@kyara1 void
+@kyara2 void
+…。
+@page
+@background hiroba
+@kyara1 soncho
+@kyara2 roloa
+村長「……ロロアさんは、元はどこに住んでいたの？
+@page
+ロロア「えーと……
+@page
+@background black
+@kyara1 void
+@kyara2 void
+@page
+@background street
+@kyara2 soncho
+@kyara1 roloa
+村長「ところで、この村のカーニバルの事は知ってるかしら？
+@page
+ロロア「あ、あと一週間で始まるお祭りですね。わたし知ってます。
+@page
+@background black
+@kyara1 void
+@kyara2 void
+@page
+@background noujo
+@kyara1 soncho
+@kyara2 roloa
+村長「ここが、ロロアさんのお勤め先になる畑ですわね。
+@page
+ロロア「わたし、うまくできるかなぁ……
+@background black
+@kyara1 void
+@kyara2 void
+@page
+@background roloahome
+@page
+@kyara2 soncho
+村長「着いたわよ、ここがアナタの住む家になるわね。
+@page
+@kyara1 roloa_warai
+ロロア「わ、きれい。
+@page
+案内されたのは、何の変哲も無い小さな一軒家。
+中は空っぽだけど、きれいに掃除されていた。
+@page
+村長「最低限の生活用品は持ってきてもらってるわね？
+@page
+@kyara1 roloa
+ロロア「あ、はい。　ここに。
+@page
+わたしは自分の手荷物を持ち上げてみせる。
+大きなカバンの中には、１人分の食器や寝具、着替えが揃っている。
+@page
+村長「それなら大丈夫ね。分からないことがあったら、役所に聞きに来るといいわ。
+@page
+@kyara1 roloa_warai
+ロロア「ありがとうございました！
+@page
+@background black
+@kyara2 void
+@kyara1 void
+…。
+@page
+@background roloahome
+@kyara1 roloa
+ロロア「ふぅ、これで良し、っと。
+@page
+荷物の整理も終わって一息ついたところで、これからの事を考える。
+@page
+まずはご近所あいさつ、かな……？
+@page
+他にやることもないし、村を見て回りたい気持ちもあるし、
+@page
+ちょっと外に出てこようかな？
+@page
+@end
+
+
+

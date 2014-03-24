@@ -1,0 +1,34 @@
+@ifmember blosh roloa
+@nifloveroloa 1
+@nifloveblosh 1
+@ifplace noujo
+@start
+@background noujo
+@kyara1 roloa
+ロロアが農場で働いていると、そこに１人の少女が話しかけてきた。
+@page
+@kyara2 blosh_warai
+ブロッシュ「やっほー！そこの青いの、新入りだねー？
+@page
+@kyara1 roloa
+ロロア「えっ、わたし……？
+@page
+@kyara2 blosh
+ブロッシュ「そうだそうだ、キミだよキミ。お名前はなんつーの？
+@page
+ロロア「ロロアです。あなたは…？
+@page
+ブロッシュ「ワタシはブロッシュ、そこの緑色の建物で、この村の電燈を全部仕切ってんのよ。
+@page
+ブロッシュ「それでロロア、聞きたいことがあるんだけど、新居の灯りは、ちゃんと点いてるかい？
+@page
+ロロア「あ、えっと、特に問題ないです。
+@page
+@kyara2 blosh_warai
+ブロッシュ「オッケー。じゃ、灯りの事で困ったら、ワタシの店に来てくれよ！
+@page
+ロロア「あっ、ブロッシュさん……、行っちゃった。
+@page
+@loveblosh 1
+@loveroloa 1
+@end

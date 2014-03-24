@@ -1,0 +1,50 @@
+@ifmember roloa maki
+@nifmakilove 1
+@nifroloalove 1
+@start
+@background street
+往来の真ん中で、右往左往する少女が１人。
+@page
+@kyara1 roloa_naki
+ロロア「えっと……、仕立て屋さんは、仕立て屋さんは……
+@page
+@kyara1 void
+@kyara2 maki
+マキ「ん？　あの子は……
+@page
+@kyara2 maki_warai
+@kyara1 roloa_naki
+マキ「大丈夫かな？
+@page
+ロロア「あ、あうう、えっと……
+@page
+マキ「アナタはもしかして、最近ここに引っ越してきた子かな？
+@page
+ロロア「えっと、そうですけど……
+@page
+@kyara2 maki
+マキ「ところで、さっきからキョロキョロしてたけど何か探し物してるの？
+@page
+ロロア「あの、仕立て屋さんは……
+@page
+マキ「仕立て屋なら、あの交差点を右に行ってすぐだよ。茶色のクモの形の看板があるからね。
+@page
+@kyara1 roloa
+ロロア「あ、ありがとうございます
+@page
+マキ「キミ、お名前は？
+@page
+ロロア「わたしは……、ロロアです。
+@page
+マキ「ロロアちゃん、ワタシはマキ。　この辺には青いナーガはワタシしかいないから、よかったら覚えてね。
+@page
+@kyara2 maki_warai
+マキ「じゃあね、気をつけてね。
+@page
+@kyara2 void
+@kyara1 roloa_warai
+ロロア「あ、はい、ありがとう……、マキさん。
+@page
+@lovemaki 1
+@loveroloa 1
+@end

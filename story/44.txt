@@ -1,0 +1,28 @@
+@ifmember blosh roloa
+@nifloveroloa 1
+@nifloveblosh 1
+@ifplace bloshhome
+@start
+@background bloshhome
+@kyara1 roloa
+ロロア「こんにちは～…
+@page
+@kyara2 blosh_warai
+ブロッシュ「いらっしゃい～、お、噂の新入りちゃんだね？
+@page
+ロロア「え、まぁ……
+@page
+ブロッシュ「ワタシはこの電気屋をやってるブロッシュだ、よろしくな。
+@page
+ロロア「あ、ロロアです。よろしく…。ブロッシュさん
+@page
+@kyara2 blosh
+ブロッシュ「ブロッシュでいいよー。そんな硬くならずにさぁ。
+@page
+ブロッシュ「電気のことで困ったら、ワタシに相談してくれよ？
+@page
+ロロア「うん、これからよろしいくね。
+@page
+@loveblosh 1
+@loveroloa 1
+@end

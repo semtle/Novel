@@ -1,0 +1,22 @@
+@ifmember maki kumo
+@ifplace kumohome
+@start
+ガチャ
+@page
+@background kumohome
+@kyara1 kumo
+クモ「いらっしゃい
+@page
+@kyara2 maki_warai
+マキ「やっほー、クモー
+@page
+クモ「なんだマキか。　またカギ裂きの修繕か？
+@page
+@kyara2 maki
+マキ「ううん、ちょっと遊びに来ただけだよ
+@page
+クモ「そうか、仕事の邪魔はしないでくれよ
+@page
+@lovemaki 1
+@lovekumo 1
+@end

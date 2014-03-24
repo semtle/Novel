@@ -1,0 +1,33 @@
+@ifmember maki roloa
+@ifloveroloa 1
+@iflovemaki 1
+@start
+@background street
+@kyara1 maki
+マキ「あっ、ロロアちゃん。
+@page
+@kyara2 roloa_tere
+ロロア「えっ、えと。
+@page
+マキ「ワタシよ、マキよ。
+@page
+@kyara2 roloa
+ロロア「そう、マキさん、こんにちは。
+@page
+マキ「もう、ここでの生活には慣れたかな？
+@page
+@kyara2 roloa_warai
+ロロア「はい、マキさんのおかげで……
+@page
+@kyara1 maki_warai
+マキ「えへへ、ありがと。
+@page
+マキ「そうだ、ワタシの家に遊びに来ない？この村の端っこにあるのよ。
+@page
+ロロア「あ、わたし、マキさんのお家、遊びに行きたいです。
+@page
+マキ「決まりね。じゃ、ついてきてね。
+@page
+@lovemaki 2
+@loveroloa 2
+@end

@@ -1,0 +1,29 @@
+﻿背景 background
+	black
+
+	machi
+	machi_yoru
+	machi_hata
+	machi_roloa
+	
+	hiroba
+	hiroba_yoru
+	
+	makihome
+	roloahome
+	kumohome
+	bloshhome
+	
+マキ maki
+	ma真顔
+	warai笑顔
+	naki悲しみ
+	odoroki驚き
+ロロア roloa
+	ma真顔
+	warai喜び
+	naki悲しみ
+ブロッシュ blosh
+	
+クモ kumo
+	

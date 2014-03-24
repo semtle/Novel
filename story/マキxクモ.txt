@@ -1,0 +1,43 @@
+﻿@start
+そして、カーニバル当日……
+@background street
+@kyara2 maki_warai
+マキ「あー、間に合ってよかった！
+@page
+@kyara1 kumo
+クモ「あぁ、なんとか間に合ったな
+@page
+マキ「うん、クモ、ありがとうね！
+@page
+クモ「ところでよ、マキ」
+@page
+@kyara2 maki
+マキ「なぁに？
+@page
+クモ「手伝う代わりに、なんでもするって言ったよな？
+@page
+マキ「えっと……、言ったっけ？
+@page
+クモ「言ったよなァ！
+@page
+@kyara1 void
+@kyara2 void
+@background kumo_maki
+@hidetext
+@page
+マキ「んー…！
+@page
+@background street
+@kyara2 maki_odoroki
+@kyara1 blosh_warai
+ブロッシュ「やった！
+@page
+ブロッシュ「さすがクモ！ワタシたちにできない事を平然とやってのけるッ！
+@page
+ブロッシュ「そこにシビれる！あこがれるゥ！
+@page
+@end
+
+
+　
+

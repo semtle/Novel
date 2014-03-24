@@ -1,0 +1,26 @@
+﻿@ifmember blosh roloa
+@ifloveroloa 2
+@ifloveblosh 2
+@start
+@background street
+@page
+@kyara1 roloa
+@kyara2 blosh
+ロロア「ねぇ、カーニバルの日、広場でコンサートがあるんだって。
+@page
+@kyara2 blosh_warai
+ブロッシュ「おっ、知ってたか！それ、ワタシも出場するんだ！
+@page
+@kyara1 roloa_warai
+ロロア「えっ！ブロッシュ、歌うの！？
+@page
+ブロッシュ「そう！歌うのよ！
+@page
+ロロア「歌えるの！？
+@page
+@kyara2 blosh_odoroki
+ブロッシュ「たぶん！！
+@page
+@loveblosh 2
+@loveroloa 2
+@end

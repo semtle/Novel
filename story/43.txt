@@ -1,0 +1,23 @@
+﻿@ifmember blosh roloa
+@ifloveroloa 1
+@ifloveblosh 1
+@start
+@background street
+@page
+@kyara1 roloa
+@kyara2 blosh
+ブロッシュ「よ！ロロア！
+@page
+ロロア「あ、ブロッシュ」
+@page
+ブロッシュ「元気？
+@page
+ロロア「あ、うん、元気だよ
+@page
+@kyara2 blosh_warai
+ブロッシュ「それだけだ、じゃあね！
+@page
+ロロア「？
+@loveblosh 1
+@loveroloa 1
+@end

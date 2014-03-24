@@ -1,0 +1,21 @@
+﻿@ifmember blosh roloa
+@ifloveroloa 1
+@ifloveblosh 1
+@start
+@background bloshhome
+カランカラン
+@page
+@kyara1 blosh
+ブロッシュ「いらっしゃ～い。
+@page
+@kyara2 roloa
+ロロア「こんにちはー……
+@page
+ブロッシュ「お、ロロアか。何かあった？
+@page
+ロロア「あの、農場の灯りが壊れちゃったの。そしたら、ブロッシュに頼みに行けって言われたから……
+@page
+ブロッシュ「あー。そういえば前からアレ壊れてるっけ。じゃ、行きますか……
+@loveblosh 2
+@loveroloa 2
+@end

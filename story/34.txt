@@ -1,0 +1,27 @@
+@ifmember maki kumo
+@ifplace kumohome
+@iflovekumo 3
+@iflovemaki 3
+@start
+@background kumohome
+@kyara2 maki
+@kyara1 kumo
+マキ「お願いクモ～、手伝ってよ～……
+@page
+クモ「前から言ってるだろ、やらないって。
+@page
+マキ「ね～、なんでもするからさぁ～……」
+@page
+クモ「……んー………
+@page
+マキ「ねっ、ねっ、デザイン、手伝ってよぅ……」
+@page
+クモ「そこまで言うなら……まぁ……
+@page
+マキ「えっ、ホント！？ありがとクモ～！じゃあ早速……
+@page
+クモ「しょーがねぇなぁ……。
+@page
+@lovemaki 10
+@lovekumo 10
+@end

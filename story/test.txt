@@ -1,0 +1,9 @@
+@start
+テスト用スクリプト。
+@page
+@kyara1 maki_warai
+@kyara2 roloa
+@page
+おわり
+@page
+@end

@@ -1,0 +1,25 @@
+@ifmember maki roloa
+@ifloveroloa 3
+@iflovemaki 3
+@start
+@background street
+@kyara1 maki
+@kyara2 roloa
+マキ「うーん……
+@page
+ロロア「マキさん、考え事？
+@page
+マキ「ええ、ワタシ、カーニバルのときの村の飾りつけのデザインを任されたんだけど……
+@page
+マキ「ぜんぜんアイデアが浮かばないのよねぇ……
+@page
+ロロア「ふーん……、
+@page
+ロロア「マキさんの、好きなものにしちゃうのはどう？
+@page
+マキ「うーん、ワタシの好きなものかぁ……、巻物とか、鎖とか、アイマスクと……
+@page
+ロロア「なんか、長いものばっかりだね。
+@lovemaki 3
+@loveroloa 3
+@end

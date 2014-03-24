@@ -1,0 +1,20 @@
+@ifmember maki kumo
+@ifplace kumohome
+@iflovekumo 2
+@iflovemaki 1
+@start
+@background kumohome
+@kyara2 maki
+@kyara1 kumo
+マキ「ねぇクモ、やっぱりこの間のお願い、ダメ？」
+@page
+クモ「この間のって、カーニバルの飾りつけの事か？
+@page
+@kyara2 maki_naki
+マキ「あのね、どうしても、思いつかないの！　お願いだから、クモの助けが……
+@page
+クモ「ダメなもんはダメだっての。私は忙しいんだ。
+@page
+@lovemaki 1
+@lovekumo 1
+@end

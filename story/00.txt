@@ -1,0 +1,8 @@
+@start
+@background black
+@kyara1 void
+@kyara2 void
+特に何も無かった…。
+@page
+@end
+d
